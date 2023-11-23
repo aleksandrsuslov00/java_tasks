@@ -30,18 +30,17 @@ public class HelloWorld {
         // int[] digits = { 4, 7, 3, 6, 1, 0, 2 };
         // digits[4] =
 
-        
     }
 
     public static int num() {
         return 0;
     }
-    
+
     public static void scanner(String[] args) {
         System.out.println("Введите ваше имя: ");
-        Scanner scanner = new Scanner(System.in,"ibm866");
+        Scanner scanner = new Scanner(System.in, "ibm866");
         String name = scanner.nextLine();
-        System.out.println("Привет, "+ name + "!");
+        System.out.println("Привет, " + name + "!");
         scanner.close();
     }
 }
